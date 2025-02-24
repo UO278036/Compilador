@@ -10,8 +10,6 @@ INT_LITERAL
 
 REAL : INT_LITERAL+ '.' INT_LITERAL+;
 
-INT : 'int';
-FLOAT : 'real';
 READ: 'read';
 PRINT: 'print';
 

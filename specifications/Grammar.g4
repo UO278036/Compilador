@@ -7,12 +7,11 @@ program
 	;
 
 definicion
-	: 'var' IDENT':'tipo';'
+	: 'var' IDENT ':' tipo ';'
 	;
 
 tipo
 	: 'int'
-	| 'real'
 	| 'float'
 	| 'char'
 	;
